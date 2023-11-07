@@ -24,8 +24,6 @@ int main(){
     io.write("resources/polygon15.txt",bool_ops2.polygon_union()[0]);
     io.write("resources/polygon16.txt",bool_ops2.polygon_intersect()[0]);
     io.write("resources/polygon17.txt",bool_ops2.polygon_diff()[0]);
-    io.write("resources/polygon18.txt",bool_ops2.polygon_diff()[1]);
-    io.write("resources/polygon19.txt",bool_ops2.polygon_diff()[2]);
 
     return 0;
 }
